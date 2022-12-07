@@ -1,0 +1,105 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+#KWlogo{
+    padding-left: 40px;
+}
+.cartitems{
+    padding-right: 40px;
+}
+#KWlogo,
+#CARTlogo{
+    height: 20px;
+}
+.cartitems{
+    display: flex;
+    align-content: center;
+}
+.background_image{
+    height: 500px;
+    width: 100%;
+}
+#ontopof{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+}
+#new{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: white;
+    font-size: 20px;
+}
+.discover{
+    padding-left: 40px;
+}
+.books{
+    display: flex;
+    justify-content: space-around;
+}
+.book{
+    width: 180px;
+    height: 250px;
+}
+.title{
+    font-size: 20px;
+}
+.author{
+    font-size: 15px;
+    color: rgb(181, 176, 176);
+}
+.cartwhite{
+    height: 15px;
+}
+button{
+    background-color: #6196fe;
+    border-color: #6196fe;
+    display: inline-flex;
+    border-radius: 7px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.games{
+    display: flex;
+    justify-content: space-around;
+}
+.game{
+    width: 220px;
+    height: 200px;
+}
+footer{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+footer>div>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+footer>div{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer>div>b{
+    display: flex;
+    justify-content: flex-end;
+}
